@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Aplikasi KEJORA</string>
+    <string-array name="Jantina">
+        <item>Lelaki</item>
+        <item>Perempuan</item>
+    </string-array>
+
+    <string-array name="Kategori">
+        <item>U13</item>
+        <item>U15</item>
+        <item>U18</item>
+    </string-array>
+
+    <string-array name="Rumah">
+        <item>Razak(Kuning)</item>
+        <item>Rahman(Hijau)</item>
+        <item>Hussein(Biru)</item>
+        <item>Mahathir(Merah)</item>
+    </string-array>
+</resources>

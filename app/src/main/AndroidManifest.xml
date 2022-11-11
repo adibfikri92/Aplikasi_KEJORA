@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aplikasikejora">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AplikasiKEJORA">
+        <activity android:name=".PengurusanAcara"></activity>
+        <activity android:name=".PengadilAcara" />
+        <activity android:name=".DisplayJadualAcaraPengadil" />
+        <activity android:name=".PengadilPeserta" />
+        <activity android:name=".KehadiranPeserta" />
+        <activity android:name=".DisplayKehadiranPeserta" />
+        <activity android:name=".DisplayKeputusanMengikutAcara" />
+        <activity android:name=".KeputusanMengikutAcara" />
+        <activity android:name=".KeputusanKeseluruhan1" />
+        <activity android:name=".KRPaparKeputusan" />
+        <activity android:name=".UpdatePengadil" />
+        <activity android:name=".ProfilePengadil" />
+        <activity android:name=".RecoverQR" />
+        <activity android:name=".DisplayPesertaList" />
+        <activity android:name=".DisplayJadualAcara" />
+        <activity android:name=".DisplayAcaraList" />
+        <activity android:name=".UpdatePeserta3" />
+        <activity android:name=".UpdatePeserta2" />
+        <activity android:name=".UpdatePeserta1" />
+        <activity android:name=".UpdateAcara2" />
+        <activity android:name=".UpdateAcara1" />
+        <activity android:name=".KeputusanAcara2" />
+        <activity android:name=".DisplayProfilePemenang" />
+        <activity android:name=".KeputusanQrScanner" />
+        <activity android:name=".KeputusanAcara1" />
+        <activity android:name=".PengadilSahPeserta" />
+        <activity android:name=".PengadilSahPesertaQrScanner" />
+        <activity android:name=".DisplayQR" />
+        <activity android:name=".RegisterPeserta2" />
+        <activity android:name=".RegisterPesertaBaru" />
+        <activity android:name=".MenuSuperAdmin" />
+        <activity android:name=".RegisterAcara" />
+        <activity android:name=".KRPeserta" />
+        <activity android:name=".KRAcara" />
+        <activity android:name=".MenuPengadil" />
+        <activity android:name=".LoginPengadil" />
+        <activity android:name=".UpdateKetuaRumah" />
+        <activity android:name=".ProfileKetuaRumah" />
+        <activity android:name=".MainMenu">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MenuKetuaRumah"
+            android:exported="true" />
+        <activity
+            android:name=".LoginKetuaRumah"
+            android:exported="true" />
+        <activity
+            android:name=".UpdatePengurusan"
+            android:exported="true" />
+        <activity
+            android:name=".ProfilePengurusan"
+            android:exported="true" />
+        <activity
+            android:name=".RegisterPengadil"
+            android:exported="true" />
+        <activity
+            android:name=".RegisterKetuaRumah"
+            android:exported="true" />
+        <activity
+            android:name=".RegisterPengurusan"
+            android:exported="true" />
+        <activity
+            android:name=".LoginPengurusan"
+            android:exported="true" />
+        <activity
+            android:name=".MenuPengurusan"
+            android:exported="true" />
+    </application>
+
+</manifest>
